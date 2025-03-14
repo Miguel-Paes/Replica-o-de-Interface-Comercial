@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body{
+  height: 100vh;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+  gap: 1vw;
+  margin-bottom: 2vh;
+}
+
+.big {
+  background-color: #d9e9fd;
+  width: 70vw;
+  height: 31vh;
+  border-radius: .7rem;
+}
+
+.small {
+  background-color: #d9e9fd;
+  width: 27vw;
+  height: 31vh;
+  border-radius: .7rem;
+  padding: 1rem;
+}
+/* azul: 003da7*/
+
+.content {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.image {
+  width: 30%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.question{
+  padding: 2rem 0 1rem 0;
+  color: #003da7;
+  font-size: 2rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  letter-spacing: .1rem;
+  align-self: center;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  font-size: .8rem;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.btn-text {
+  background-color: #003da7;
+  color: #d9e9fd;
+  padding: .5rem 3.3rem .5rem 1rem;
+  border-radius: 10rem;
+}
+
+.btn-icon {
+  background-color: white;
+  color: #003da7;
+  border-radius: 100%;
+  padding: .4rem;
+  position: relative;
+  right: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.common-questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  padding: 1.7rem 0;
+}
+
+.c-question {
+  display: flex;
+  align-items: center;
+}
+
+.question-text {
+  background-color: #003da7;
+  color: white;
+  padding: .3rem;
+  border-radius: 2rem;
+  width: 90%;
+  text-align: center;
+}
+
+.question-icon{
+  background-color: white;
+  color: #003da7;
+  padding: .2rem;
+  text-align: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 1.1rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  color: #003da7;
+}
+
+.top-btn {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top-btn-text {
+  display: flex;
+  font-size: .9rem;
+  font-weight: 100;
+}
+
+.top-btn-icon {
+  background-color: white;
+  border-radius: 100%;
+  font-size: 1.1rem;
+  padding: .3rem;
+}
+
+table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+thead {
+  padding-bottom: .5rem;
+  border-bottom: solid .1rem white;
+}
+
+thead tr {
+color: #003da7;
+letter-spacing: .1rem;
+font-weight: 100;
+display: flex;
+padding: 0 .5rem;
+justify-content: space-between;
+}
+
+tbody {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+tbody tr {
+background-color: white;
+padding: .5rem .5rem;
+border-radius: .3rem;
+display: flex;
+justify-content: space-between;
+}
+
+td {
+  width: 5rem;
+}
+
+.status {
+  width: 5.3rem;
+  text-align: center;
+  border-radius: .4rem;
+  border: solid black .1rem;
+  padding: .2rem;
+  color: white;
+}
+
+.processado {
+  background-color: limegreen;
+}
+
+.analise {
+  background-color: #f4aa11;
+}
+
+.recusado {
+  background-color: firebrick;
+}
