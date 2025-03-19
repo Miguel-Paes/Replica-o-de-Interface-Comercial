@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #b1b1b1;
+}
+
+header {
+  background-size: 100%;
+  object-fit: cover;
+  height: 10vh;
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+
+header img {
+  width: 100vw;
+  position: relative;
+  bottom: 29rem;
+}
+
+main {
+  background-color: #b1b1b1;
+  height: 86.5vh;
+  width: 100vw
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section {
+  background-color: white;
+  padding: 1rem;
+}
+
+.vertical {
+  width: 20vw;
+}
+
+.horizontal {
+  width: 79vw;
+  height: 48vh;
+}
